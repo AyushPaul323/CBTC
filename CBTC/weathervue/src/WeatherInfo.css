@@ -1,0 +1,29 @@
+.weather-container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.weather-container:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.weather-container h2 {
+  margin: 0;
+}
+
+.weather-container h3 {
+  margin: 5px 0;
+}
+
+.weather-container p {
+  margin: 5px 0;
+}
